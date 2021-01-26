@@ -1,0 +1,29 @@
+.mybtn2,
+.newsletter-section::before,
+.testimonial-section .owl-carousel .owl-nav .owl-prev:hover,
+.testimonial-section .owl-carousel .owl-nav .owl-next:hover,
+.testimonial-section::before,
+.product-section .owl-carousel .owl-nav .owl-prev,
+.product-section .owl-carousel .owl-nav .owl-next,
+.features-section .feature-item:hover,
+.section-title .title::before,
+.home-section,
+.header {
+	background-color: #d70d25;
+}
+.faq-section .support-text a,
+.testimonial-section .owl-carousel .owl-nav .owl-prev,
+.testimonial-section .owl-carousel .owl-nav .owl-next,
+.testimonial-section .client-info h5,
+.product-section .product-content .product-price .new-price,
+.features-section .feature-item .icon i,
+.about-section .about-content ul li i,
+.section-title .title,
+.mybtn1:hover,
+.mybtn1 {
+	color: #d70d25;
+}
+
+.testimonial-section .client-info img {
+	border-color: #d70d25;
+}
