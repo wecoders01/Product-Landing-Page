@@ -660,5 +660,118 @@ a {
 	right: 6px;
 }
 /* =================
+ Contact Section
+  ====================================*/
+.contact-section {
+	padding: 80px 0 80px;
+}
+.contact-section .contact-form .form-group {
+	margin-bottom: 20px;
+}
+.contact-section .contact-form .form-control {
+	height: 50px;
+	color: #555555;
+	border: none;
+	border-bottom: 1px solid #d9d9d9;
+	border-radius: 0;
+	transition: 0.5s;
+}
+.contact-section .contact-form textarea.form-control {
+	height: 120px;
+}
+.contact-section .contact-form .form-control:focus {
+	box-shadow: none;
+}
+.contact-section .contact-item {
+	position: relative;
+	padding-left: 65px;
+	margin-bottom: 35px;
+}
+.contact-section .contact-item .icon {
+	height: 50px;
+	width: 50px;
+	background-color: #f5f5ff;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.contact-section .contact-item .icon i {
+	font-size: 20px;
+	line-height: 50px;
+}
+.contact-section .contact-item h5 {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	margin: 0 0 2px;
+	text-transform: capitalize;
+}
+.contact-section .contact-item p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #555555;
+	margin: 0;
+}
+/* =================
+  Footer Section
+  ====================================*/
+.footer-section {
+	padding: 80px 0 0;
+	text-align: center;
+}
+.footer-section .footer-logo a {
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 0 15px;
+}
+.footer-section .footer-text p {
+	font-size: 16px;
+	line-height: 26px;
+	color: #eeeeee;
+	font-weight: 400;
+	margin: 0 0 25px;
+}
+.footer-section .footer-social-links a {
+	display: inline-block;
+	text-align: center;
+	margin: 0 4px;
+}
+.footer-section .footer-social-links {
+	margin-bottom: 80px;
+}
+.footer-section .footer-social-links a i {
+	height: 40px;
+	width: 40px;
+	border: 1px solid #ffffff;
+	display: block;
+	line-height: 38px;
+	color: #ffffff;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+.footer-section .footer-social-links a:hover i {
+	background-color: #ffffff;
+}
+.footer-section .copyright {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 20px 15px;
+}
+.footer-section .copyright p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 26px;
+	color: #eeeeee;
+	font-weight: 400;
+}
+/* =================
   Global Style
-  ====================================*/ ;
+  ====================================*/
+/* =================
+  Global Style
+  ====================================*/
