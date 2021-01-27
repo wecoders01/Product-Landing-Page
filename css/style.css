@@ -116,6 +116,36 @@ a {
 	background-color: #f5f5ff;
 }
 /* =================
+  Preloader Section
+  ====================================*/
+.preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #222222;
+	z-index: 1100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.preloader .loader {
+	height: 50px;
+	width: 50px;
+	border: 5px solid #ffffff;
+	border-radius: 50%;
+	animation: preloader 1s linear infinite;
+}
+@keyframes preloader {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+/* =================
   Header Section
   ====================================*/
 .header {

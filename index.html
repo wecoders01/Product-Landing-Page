@@ -15,14 +15,61 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<!-- Main css -->
 		<link rel="stylesheet" href="css/style.css" />
+		<!-- Responsive css -->
+		<link rel="stylesheet" href="css/responsive.css" />
 		<!-- Default skin -->
 		<link rel="stylesheet" href="css/skins/crimson.css" />
+
+		<!-- Live Style Switcher - demo only -->
+		<link
+			rel="stylesheet"
+			title="crimson"
+			class="alternate-style"
+			href="css/skins/crimson.css"
+			disabled
+		/>
+		<link
+			rel="stylesheet"
+			title="blue"
+			class="alternate-style"
+			href="css/skins/blue.css"
+			disabled
+		/>
+		<link
+			rel="stylesheet"
+			title="indigo"
+			class="alternate-style"
+			href="css/skins/indigo.css"
+			disabled
+		/>
+		<link
+			rel="stylesheet"
+			title="aqua"
+			class="alternate-style"
+			href="css/skins/aqua.css"
+			disabled
+		/>
+		<link
+			rel="stylesheet"
+			title="black"
+			class="alternate-style"
+			href="css/skins/black.css"
+			disabled
+		/>
+
+		<link rel="stylesheet" href="css/styleSwitcher.css" />
 	</head>
 	<body>
+		<!-- Preloader Start -->
+		<div class="preloader">
+			<div class="loader"></div>
+		</div>
+		<!-- Preloader End -->
+
 		<!-- Header Section Start -->
 		<div class="header fixed-top">
 			<div class="container">
-				<nav class="navbar navbar-expand-md navbar-light">
+				<nav class="navbar navbar-expand-lg navbar-light">
 					<!-- Brand -->
 					<a class="navbar-brand" href="index.html"
 						><span class="logo-circle"></span> coders</a
@@ -42,25 +89,25 @@
 					<div class="collapse navbar-collapse" id="collapsibleNavbar">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
-								<a class="nav-link active" href="#">Home</a>
+								<a class="nav-link active" href="#home">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">About</a>
+								<a class="nav-link" href="#about">About</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Features</a>
+								<a class="nav-link" href="#features">Features</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Products</a>
+								<a class="nav-link" href="#products">Products</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Testimonial</a>
+								<a class="nav-link" href="#testimonial">Testimonial</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Faq</a>
+								<a class="nav-link" href="#faq">Faq</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link" href="#contact">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -70,7 +117,7 @@
 		<!-- Header Section End -->
 
 		<!-- Home Section Start -->
-		<section class="home-section">
+		<section class="home-section" id="home">
 			<div class="bg-shapes">
 				<div></div>
 				<div></div>
@@ -92,7 +139,7 @@
 							<a href="#" class="btn mybtn1">Buy For $150</a>
 						</div>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 order-first order-lg-last">
 						<div class="home-img">
 							<img src="img/watch-01.png" alt="Product" />
 						</div>
@@ -103,7 +150,7 @@
 		<!-- Home Section End -->
 
 		<!-- About Section Start -->
-		<section class="about-section">
+		<section class="about-section" id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 d-flex">
@@ -111,7 +158,7 @@
 							<img class="img-fluid" src="img/watch-02.jpg" alt="Product" />
 						</div>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 order-first order-lg-last">
 						<!-- section title start -->
 						<div class="section-title">
 							<h1 class="title">About Product</h1>
@@ -156,7 +203,7 @@
 		<!-- About Section End -->
 
 		<!-- Features Section Start -->
-		<section class="features-section">
+		<section class="features-section" id="features">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
@@ -248,7 +295,7 @@
 		<!-- Features Section End -->
 
 		<!-- Product Section Start -->
-		<section class="product-section">
+		<section class="product-section" id="products">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
@@ -409,7 +456,7 @@
 		<!-- Product Section End -->
 
 		<!-- Testimonial Section Start -->
-		<section class="testimonial-section">
+		<section class="testimonial-section" id="testimonial">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
@@ -513,7 +560,7 @@
 		<!-- Testimonial Section End -->
 
 		<!-- FAQs Section Start -->
-		<section class="faq-section">
+		<section class="faq-section" id="faq">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
@@ -637,7 +684,7 @@
 		<!-- Newsletter Section End -->
 
 		<!-- Contact Section Start -->
-		<section class="contact-section">
+		<section class="contact-section" id="contact">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
@@ -704,7 +751,7 @@
 							</div>
 						</form>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-5 order-first order-md-last">
 						<!-- contact item start -->
 						<div class="contact-item">
 							<div class="icon">
@@ -768,6 +815,42 @@
 		</footer>
 		<!-- Footer Section End -->
 
+		<!-- Live Style Switcher - demo only start -->
+		<div class="style-switcher">
+			<div class="toggle-style-switcher">
+				<i class="fas fa-cog fa-spin"></i>
+			</div>
+			<h5>Style Switcher</h5>
+			<ul class="list-unstyled">
+				<li
+					title="crimson"
+					style="background-color: #d70d25"
+					onclick="setActiveStyle('crimson')"
+				></li>
+				<li
+					title="blue"
+					style="background-color: #4948d4"
+					onclick="setActiveStyle('blue')"
+				></li>
+				<li
+					title="indigo"
+					style="background-color: #6400ae"
+					onclick="setActiveStyle('indigo')"
+				></li>
+				<li
+					title="aqua"
+					style="background-color: #05b3b6"
+					onclick="setActiveStyle('aqua')"
+				></li>
+				<li
+					title="black"
+					style="background-color: #222222"
+					onclick="setActiveStyle('black')"
+				></li>
+			</ul>
+		</div>
+		<!-- Live Style Switcher - demo only end -->
+
 		<!-- Jquery -->
 		<script src="js/jquery.min.js"></script>
 		<!-- Popper -->
@@ -778,5 +861,8 @@
 		<script src="js/owl.carousel.min.js"></script>
 		<!-- main -->
 		<script src="js/main.js"></script>
+
+		<!-- Live Style Switcher - demo only -->
+		<script src="js/styeSwitcher.js"></script>
 	</body>
 </html>
